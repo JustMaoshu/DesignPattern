@@ -1,5 +1,8 @@
-package DecoratorPattern;
+package DecoratorPattern.Order;
 
+/**
+ * 摩卡调料类
+ */
 public class Mocha implements CondimentDecorator{
 
     Beverage beverage;

@@ -1,5 +1,8 @@
-package DecoratorPattern;
+package DecoratorPattern.Order;
 
+/**
+ * 深焙咖啡类（一种具体的饮料）
+ */
 public class DarkRoast implements Beverage{
 
     @Override
