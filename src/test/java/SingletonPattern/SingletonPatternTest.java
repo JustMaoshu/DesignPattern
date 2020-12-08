@@ -10,4 +10,22 @@ public class SingletonPatternTest {
         singleObjectInstance.showMessage();
     }
 
+    @Test
+    public void test2(){
+        LazySingleton singleton = LazySingleton.getInstance1();
+        singleton.showMessage();
+    }
+
+    @Test
+    public void test3(){
+        LazySingleton singleton = LazySingleton.getInstance2();
+        singleton.showMessage();
+    }
+
+    @Test
+    public void test4(){
+//        LazySingleton singleton = LazySingleton.getInstance1();
+        HungrySingleton singleton = HungrySingleton.getInstance();
+        singleton.showMessage();
+    }
 }
